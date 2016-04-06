@@ -121,42 +121,42 @@ public class BoaLista2 {
     
     
     public static void main(String[] args) {
-        int opcao;
-        Scanner entrada = new Scanner(System.in);
-        
-        do{
-            menu();
-            opcao = entrada.nextInt();
-            
-            
-        switch(opcao){
-            case 1:
-                CadastrarProduto();
-                break;
-            case 2:
-                RecuperarTodos();                
-                break;
-                
-            case 3:
-                Atualizar();
-                break;
-            case 4:
-                Deletar();
-                break;
-            case 0:
-                break;
-            default:
-                System.out.println("Opção Invalida");
-        }
-         }while(opcao != 0);
+//        int opcao;
+//        Scanner entrada = new Scanner(System.in);
+//        
+//        do{
+//            menu();
+//            opcao = entrada.nextInt();
+//            
+//            
+//        switch(opcao){
+//            case 1:
+//                CadastrarProduto();
+//                break;
+//            case 2:
+//                RecuperarTodos();                
+//                break;
+//                
+//            case 3:
+//                Atualizar();
+//                break;
+//            case 4:
+//                Deletar();
+//                break;
+//            case 0:
+//                break;
+//            default:
+//                System.out.println("Opção Invalida");
+//        }
+//         }while(opcao != 0);
         
 
-//        List<Produto> lista = Fachada.getStance().recuperarTodos();
-//        
-//        for (int i = 0; i < lista.size(); i++) {
-//            System.out.println("Nome:"+lista.get(i).getNome()+
-//                    "\n Tipo de Produto(VALOR): "+lista.get(i).getTipoProduto().getValor());
-//        }
+        List<Produto> lista = Fachada.getStance().recuperarTodos();
+        
+        for (int i = 0; i < lista.size(); i++) {
+            System.out.println("Nome:"+lista.get(i).getNome()+
+                    "\n Tipo de Produto(VALOR): "+lista.get(i).getTipoProduto().getValor());
+        }
     }
     
 }
