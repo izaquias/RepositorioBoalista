@@ -23,12 +23,11 @@ public class BoaLista2 {
 
     public static void menu(){
         System.out.println(" Escolha");
-        System.out.println("1. Cad ");
+        System.out.println("1. Cadastrar");
         System.out.println("2. Recuperar");
         System.out.println("3. Atualizar");
         System.out.println("4. Deletar");
         System.out.println("0. Sair");
-        System.out.println("Opção: ");
         System.out.println("Opção: ");
         
     }
