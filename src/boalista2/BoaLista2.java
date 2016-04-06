@@ -29,6 +29,7 @@ public class BoaLista2 {
         System.out.println("4. Deletar");
         System.out.println("0. Sair");
         System.out.println("Opção: ");
+        System.out.println("Opção: ");
         
     }
     
