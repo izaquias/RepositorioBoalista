@@ -30,6 +30,7 @@ public class BoaLista2 {
         System.out.println("0. Sair");
         System.out.println("Opção: ");
         System.out.println("Opção2: ");
+        //deu certo!
         
     }
     
